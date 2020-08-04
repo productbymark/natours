@@ -1,0 +1,59 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "layout/navigation";
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+
+@import "pages/home";
+
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/cards";
+@import "components/story";
+@import "components/bg-video";
+@import "components/form";
+@import "components/popup";
+
+/* 
+    Three pillars of writing good HTML and CSS:
+
+    1. Responce design
+        - Fluid layouts
+        - Media queries
+        - Responsive images
+        - Correct untis
+        - Desktop vs mobile first
+    
+    2. Maintainable and scalable code
+        - Clean
+        - Easy to understand
+        - Growth
+        - Reuseable
+        - File organisation
+        - Class naming
+        - HTML structure
+        - Block Element Mofier (BEM), 
+            double-underscore for block, 
+            double-hyphen for modifers
+        = [7:1 pattern](https://medium.com/@reneecruz/sass-syntactically-awesome-style-sheets-sassy-css-4a545ff6e0c4)
+    
+    3. Web performance
+        - Less HTTP requests
+        - Less code
+        - Code minification
+        - CSS preprocessing
+        - Less images**
+        - Image compression
+
+*/
+
+
